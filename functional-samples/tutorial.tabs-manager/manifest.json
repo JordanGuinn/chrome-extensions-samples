@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Tab Manager for Chrome Dev Docs",
+  "name": "Personal Tab Manager",
   "version": "1.0",
   "icons": {
     "16": "images/icon-16.png",
@@ -11,6 +11,9 @@
   "action": {
     "default_popup": "popup.html"
   },
-  "host_permissions": ["https://developer.chrome.com/*"],
-  "permissions": ["tabGroups"]
+  "host_permissions": [
+    "http://*/*",
+    "https://*/*"
+  ],
+  "permissions": ["tabGroups", "tabs"]
 }

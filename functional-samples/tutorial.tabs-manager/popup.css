@@ -15,7 +15,7 @@ limitations under the License.
 */
 
 body {
-  width: 20rem;
+  width: 40rem;
 }
 
 ul {
@@ -37,4 +37,13 @@ li:nth-child(even) {
 h3,
 p {
   margin: 0;
+}
+
+img {
+  display: inline;
+}
+
+button:hover {
+  cursor: pointer;
+  background: #80808030;
 }

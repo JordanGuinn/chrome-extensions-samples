@@ -5,18 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./popup.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   </head>
   <body>
     <template id="li_template">
       <li>
         <a>
-          <h3 class="title">Tab Title</h3>
-          <p class="pathname">Tab Pathname</p>
+          <img class="icon" src="img_chania.jpg" alt="Tab Image" width="24" height="24" />
+          <span class="title" style="font-size: small; font-weight: bold;">Tab Title</span>
+          <button style="border: none; background: none;"><i class="material-icons" style="color:red">close</i></button>
         </a>
       </li>
     </template>
 
-    <h1>Google Dev Docs</h1>
+    <h1>General Tab Overview</h1>
+    <h3>Total Tab Count: <span class="tab-count">0</span></h3>
     <button>Group Tabs</button>
     <ul></ul>
 
